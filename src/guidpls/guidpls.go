@@ -51,7 +51,7 @@ func main() {
 
     // Copy the GUIDs to the clipboard using the clip command if neither -nocopy nor -n is specified
     if !*nocopy && !*nocopyShort {
-        cmd := exec.Command("cmd", "/c", "echo "+guidsStr+"| clip")
+        cmd := exec.Command("cmd", "/c", "echo|set /p="+guidsStr+"| clip")
         cmd.Run()
     }
 
