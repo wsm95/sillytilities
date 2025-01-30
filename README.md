@@ -15,8 +15,10 @@ positional arguments:
   count Number of GUIDs to generate (default is 1)
 
 options:
-  -h, --help show this help message and exit
-  -n, --nocopy Do not copy GUIDs to clipboard
+  -h, --help
+      Show this help message and exit
+  -n, --nocopy
+      Do not copy GUIDs to clipboard
 ```
 
 ## jottin
@@ -32,7 +34,26 @@ positional arguments:
   token       JWT token to decode
 
 options:
-  -h, --help  show this help message and exit
+  -h, --help
+    Show this help message and exit
+```
+
+## bing
+
+Sometime you need to bong. So lets bing.
+
+```
+usage: bing [-h] [-f] [-t]
+
+Lets bong.
+
+options:
+  -h, --help
+      Show this help message and exit
+  -f, --frequency
+      Frequency of the tone in Hz (default 116 [Bb])
+  -t, --time
+      Duration of the tone in seconds (default 3)
 ```
 
 ## How to run
