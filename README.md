@@ -56,6 +56,22 @@ options:
       Duration of the tone in seconds (default 3)
 ```
 
+## iponcmd
+
+Use this when you need your IP on command. This will print your current IP to the console and copy to your clipboard.
+
+```
+usage: iponcmd [-n] [-h]
+
+Print your current IP address to the screen. Will commy
+
+options:
+  -n, --nocopy
+      Do not copy GUIDs to clipboard
+  -h, --help
+    Show this help message and exit
+```
+
 ## How to run
 
 Add the `exe` directory to your PATH variables. This will allow you to call all sillytilities from anywhere, just follow the usage guides.
