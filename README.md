@@ -63,7 +63,7 @@ Use this when you need your IP on command. This will print your current IP to th
 ```
 usage: iponcmd [-n] [-h]
 
-Print your current IP address to the screen. Will commy
+Print your current IP address to the screen.
 
 options:
   -n, --nocopy
