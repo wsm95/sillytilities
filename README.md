@@ -69,7 +69,25 @@ options:
   -n, --nocopy
       Do not copy GUIDs to clipboard
   -h, --help
-    Show this help message and exit
+      Show this help message and exit
+```
+
+## hawthawthawt
+
+It's get-ting HAWT HAWT HAWT. Computer feeling a little hot under the collar? Use this to print the current temperature to the screen.
+
+```
+usage: hawthawthawt [-c] [-f] [-k]
+
+Print the CPU temperature to the screen.
+
+options:
+  -c, --celsius
+    Display temperature in Celsius
+  -f, --fahrenheit
+    Display temperature in Fahrenheit (default)
+  -k, --kelvin
+    Display temperature in Kelvin
 ```
 
 ## How to run
