@@ -2,6 +2,8 @@
 
 These are utilities, that are silly. sillytilities
 
+> silly disclaimer: these utilities are ai slop, most vibe coded before vibe coding was cool. silly they are, be aware of them, they were slopped together by someone who barely knows how they work.
+
 ## guidpls
 
 GUID PLEEEEEASE! Generates a random guid and copies it to the clipboard.
